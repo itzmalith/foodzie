@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="900px"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="900px"
+            android:layout_marginTop="100px"
+            android:layout_height="632dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonbackground"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+
+            <ImageView
+                android:id="@+id/closeBtn"
+                android:clickable="true"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_gravity="end"
+                android:src="@drawable/closebtn"></ImageView>
+
+            <LinearLayout
+                android:layout_width="900px"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/idz1"
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:layout_marginLeft="26px"
+                    android:layout_marginRight="40px"
+                    android:src="@drawable/gtrg_background"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/lokuback"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/idz2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="55px"
+                        android:text="Meal" />
+
+                    <TextView
+
+                        android:id="@+id/idz3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/lokuback"
+                        android:padding="45px"
+                        android:text="Category" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginLeft="10px"
+                android:layout_marginTop="60px"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="60px"
+                    android:layout_marginTop="60px"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nf_fan"
+                        android:text="idMeal :">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/mealid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30px"
+                        android:text="hello">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="50px"
+                    android:layout_marginTop="60px"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nf_fan"
+                        android:text="DrinkAlternate :">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/alternate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30px"
+                        android:text="hello">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/nf_fan"
+                android:paddingLeft="270px"
+                android:text="Ingredients"
+                android:textSize="50px">
+
+            </TextView>
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+
+                android:layout_marginTop="50px">
+
+
+                <LinearLayout
+                    android:layout_width="700px"
+                    android:layout_height="609dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/lokuback"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/I1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 1" />
+
+                    <TextView
+                        android:id="@+id/I2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 2" />
+
+                    <TextView
+                        android:id="@+id/I3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 3" />
+
+                    <TextView
+                        android:id="@+id/I4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 4" />
+
+                    <TextView
+                        android:id="@+id/I5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 5" />
+
+                    <TextView
+                        android:id="@+id/I6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 6" />
+
+                    <TextView
+                        android:id="@+id/I7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 7" />
+
+                    <TextView
+                        android:id="@+id/I8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 8" />
+
+                    <TextView
+                        android:id="@+id/I9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 9" />
+
+                    <TextView
+                        android:id="@+id/I10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 10" />
+
+
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/nf_fan"
+                android:paddingLeft="310px"
+                android:text="Measures"
+                android:textSize="50px">
+
+            </TextView>
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+
+                android:layout_marginTop="50px">
+
+
+                <LinearLayout
+                    android:layout_width="700px"
+                    android:layout_height="609dp"
+                    android:layout_gravity="center_horizontal"
+
+                    android:background="@drawable/lokuback"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/M1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 1" />
+
+                    <TextView
+                        android:id="@+id/M2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 2" />
+
+                    <TextView
+                        android:id="@+id/M3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 3" />
+
+                    <TextView
+                        android:id="@+id/M4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 4" />
+
+                    <TextView
+                        android:id="@+id/M5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 5" />
+
+                    <TextView
+                        android:id="@+id/M6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 6" />
+
+                    <TextView
+                        android:id="@+id/M7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 7" />
+
+                    <TextView
+                        android:id="@+id/M8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 8" />
+
+                    <TextView
+                        android:id="@+id/M9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 9" />
+
+                    <TextView
+                        android:id="@+id/M10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50px"
+                        android:paddingTop="25px"
+                        android:paddingBottom="25px"
+                        android:text="TextView 10" />
+
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+
+            <TextView
+                android:layout_marginLeft="300px"
+                android:layout_marginTop="30px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nf_fan"
+                android:text="instructions">
+
+            </TextView>
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/instruction"
+                    android:layout_width="310dp"
+                    android:layout_height="68dp"
+                    android:layout_marginTop="20px"
+                    android:paddingLeft="60px"
+                    android:text="hello"
+                    android:textSize="28px">
+
+                </TextView>
+            </ScrollView>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

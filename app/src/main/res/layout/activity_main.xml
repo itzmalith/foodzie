@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foodappback"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="660px"
+        android:layout_height="150px"
+        android:fontFamily="@font/nf_fan"
+        android:text="Get Started"
+        android:textSize="46px"
+        android:background="@drawable/buttonbackground"
+        android:layout_gravity="center"
+        android:layout_marginTop="1700px"
+        android:elevation="8dp"
+        android:shadowColor = "#000"
+        android:shadowDx = "-2"
+        android:shadowDy = "-2"
+        android:shadowRadius = "1"
+        >
+
+    </Button>
+</LinearLayout>

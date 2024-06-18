@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vertiback"
+    tools:context=".Categorymeal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="258dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="200px"
+            android:layout_marginBottom="60px"
+            android:background="@drawable/buttonbackground"
+            android:fontFamily="@font/fonarto"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:overScrollMode="always"
+            android:text="Categories"
+            android:textSize="70px"
+            android:elevation="8dp"
+            android:shadowColor = "#777777"
+            android:shadowDx = "-2"
+            android:shadowDy = "-2"
+            android:shadowRadius = "1">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="1000px"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:background="@drawable/lokuback"
+        >
+
+        <GridLayout
+            android:id="@+id/grid_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:rowCount="7"
+            android:padding="40px"
+            android:orientation="horizontal">
+
+            <LinearLayout
+
+                android:layout_width="20dp"
+                android:layout_height="117dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/beef"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/c1"
+                android:padding="50px"
+                android:clickable="true">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/orange1"
+                    android:fontFamily="@font/nf_fan"
+                    android:textSize="45px"
+                    android:background="@drawable/lablebackground"
+                    android:text="Beef" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="117dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/chicken"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/c2"
+                android:padding="50px"
+                android:clickable="true">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/orange1"
+                    android:fontFamily="@font/nf_fan"
+                    android:textSize="45px"
+                    android:background="@drawable/lablebackground"
+                    android:text="Chicken" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/c3"
+                android:layout_width="20dp"
+                android:layout_height="117dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/dessert"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="50px"
+                android:clickable="true">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/orange1"
+                    android:fontFamily="@font/nf_fan"
+                    android:textSize="45px"
+                    android:background="@drawable/lablebackground"
+                    android:text="Dessert" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/c4"
+                android:layout_width="20dp"
+                android:layout_height="117dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/lamb"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="50px"
+                android:clickable="true">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/orange1"
+                    android:fontFamily="@font/nf_fan"
+                    android:textSize="45px"
+                    android:background="@drawable/lablebackground"
+                    android:text="Lamb" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/c5"
+                android:layout_width="20dp"
+                android:layout_height="117dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/tacos"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="50px"
+                android:clickable="true">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/orange1"
+                    android:fontFamily="@font/nf_fan"
+                    android:textSize="45px"
+                    android:background="@drawable/lablebackground"
+                    android:text="Miscellaneous" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/c6"
+                android:layout_width="20dp"
+                android:layout_height="117dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/pasta"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="50px"
+                android:clickable="true">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/orange1"
+                    android:fontFamily="@font/nf_fan"
+                    android:textSize="45px"
+                    android:background="@drawable/lablebackground"
+                    android:text="Pasta" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/c7"
+                android:layout_width="20dp"
+                android:layout_height="117dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/pork"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="50px"
+                android:clickable="true">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/orange1"
+                    android:fontFamily="@font/nf_fan"
+                    android:textSize="45px"
+                    android:background="@drawable/lablebackground"
+                    android:text="Pork" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/c8"
+                android:layout_width="20dp"
+                android:layout_height="117dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/seafood"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="50px"
+                android:clickable="true">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/orange1"
+                    android:fontFamily="@font/nf_fan"
+                    android:textSize="45px"
+                    android:background="@drawable/lablebackground"
+                    android:text="Sea food" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/c9"
+                android:layout_width="20dp"
+                android:layout_height="117dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/side"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="50px"
+                android:clickable="true">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/orange1"
+                    android:fontFamily="@font/nf_fan"
+                    android:textSize="45px"
+                    android:background="@drawable/lablebackground"
+                    android:text="Side" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/c10"
+                android:layout_width="20dp"
+                android:layout_height="117dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/starter"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="50px"
+                android:clickable="true">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/orange1"
+                    android:fontFamily="@font/nf_fan"
+                    android:textSize="45px"
+                    android:background="@drawable/lablebackground"
+                    android:text="Starter" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/c11"
+                android:layout_width="20dp"
+                android:layout_height="117dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/vegan"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="50px"
+                android:clickable="true">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/orange1"
+                    android:fontFamily="@font/nf_fan"
+                    android:textSize="45px"
+                    android:background="@drawable/lablebackground"
+                    android:text="Vegan" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/c12"
+                android:layout_width="20dp"
+                android:layout_height="117dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/vegetarian"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="50px"
+                android:clickable="true">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/orange1"
+                    android:fontFamily="@font/nf_fan"
+                    android:textSize="45px"
+                    android:background="@drawable/lablebackground"
+                    android:text="Vegetarian" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/c13"
+                android:layout_width="20dp"
+                android:layout_height="117dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/breakfast"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="50px"
+                android:clickable="true">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/orange1"
+                    android:fontFamily="@font/nf_fan"
+                    android:textSize="45px"
+                    android:background="@drawable/lablebackground"
+                    android:text="Breakfast" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/c14"
+                android:layout_width="20dp"
+                android:layout_height="117dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="@drawable/goat"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="50px"
+                android:clickable="true">
+
+                
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/orange1"
+                    android:fontFamily="@font/nf_fan"
+                    android:textSize="45px"
+                    android:background="@drawable/lablebackground"
+                    android:text="Goat" />
+
+            </LinearLayout>
+
+
+        </GridLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

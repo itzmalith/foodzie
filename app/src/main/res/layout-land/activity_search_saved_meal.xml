@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/horizontalback"
+    tools:context=".Searchmeals">
+
+    <LinearLayout
+        android:layout_width="372dp"
+        android:orientation="vertical"
+        android:paddingTop="150px"
+
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="340dp"
+            android:layout_height="150px"
+            android:layout_marginTop="180px"
+
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/searchviews3"
+                android:layout_width="570px"
+                android:layout_height="130px"
+                android:layout_marginLeft="130px"
+                android:background="@drawable/searchback1"
+                app:queryHint="Search here"></androidx.appcompat.widget.AppCompatEditText>
+
+            <com.airbnb.lottie.LottieAnimationView
+
+                android:layout_width="150px"
+                android:layout_height="130px"
+                android:background="@drawable/searchback2"
+                android:clickable="true"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/search2"
+
+                >
+            </com.airbnb.lottie.LottieAnimationView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <Button
+            android:id="@+id/retrieveMeals2"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40px"
+            android:elevation="8dp"
+            android:fontFamily="@font/nf_fan"
+            android:shadowColor="#000"
+            android:shadowDx="-2"
+            android:shadowDy="-2"
+            android:shadowRadius="1"
+            android:textSize="46px"
+            android:background="@drawable/buttonbackground"
+            android:text="Search" />
+
+    </LinearLayout>
+
+    <ScrollView
+
+        android:layout_width="355dp"
+        android:layout_height="273dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="150px"
+        android:background="@drawable/lokuback"
+        android:padding="7dp"
+        android:scrollbarSize="8dp"
+     >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mealRecyclerView2"
+            android:layout_width="341dp"
+            android:layout_height="371dp"
+            android:padding="15px" />
+
+    </ScrollView>
+
+</LinearLayout>

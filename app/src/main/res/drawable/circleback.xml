@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <stroke
+        android:width="26dp"
+        android:color="#FFFFFF" /> <!-- Replace with your desired stroke color -->
+    <corners android:radius="100dp" /> <!-- Adjust the radius to match the size of your circle -->
+</shape>

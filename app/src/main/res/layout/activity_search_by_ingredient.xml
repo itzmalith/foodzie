@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/vertiback"
+    tools:context=".Searchmeals">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_marginTop="100px"
+        android:layout_height="150px"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_marginLeft="100px"
+            android:layout_width="700px"
+            android:layout_height="130px"
+            android:id="@+id/searchviews"
+            android:background="@drawable/searchback1"
+            app:queryHint="Search here"
+            >
+        </androidx.appcompat.widget.AppCompatEditText>
+
+        <com.airbnb.lottie.LottieAnimationView
+
+            android:layout_width="150px"
+            android:layout_height="130px"
+            app:lottie_rawRes="@raw/search2"
+            android:background="@drawable/searchback2"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:clickable="true"
+            >
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <ScrollView
+
+        android:layout_marginTop="100px"
+        android:layout_width="325dp"
+        android:layout_height="331dp"
+        android:background="@drawable/lokuback"
+        android:padding="7dp"
+        android:scrollbarSize="8dp"
+        android:layout_gravity="center">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:padding="15px"
+            android:id="@+id/mealRecyclerView"
+            android:layout_width="310dp"
+            android:layout_height="341dp"
+            />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/retrieveMeals"
+        android:layout_width="600px"
+        android:layout_marginTop="40px"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbackground"
+        android:elevation="8dp"
+        android:fontFamily="@font/nf_fan"
+        android:shadowColor="#000"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+        android:textSize="46px"
+        android:text="Search" />
+
+    <Button
+        android:id="@+id/buttonz"
+        android:layout_width="600px"
+        android:layout_marginTop="40px"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbackground"
+        android:elevation="8dp"
+        android:fontFamily="@font/nf_fan"
+        android:shadowColor="#000"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+        android:textSize="46px"
+        android:text="Save Meals" />
+
+</LinearLayout>
